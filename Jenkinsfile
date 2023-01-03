@@ -7,6 +7,12 @@ pipeline{
                 sh "hello"
             }
         }
+         stage("Test")
+        {
+            steps{
+                sh "test"
+            }
+        }
     }
 }
 

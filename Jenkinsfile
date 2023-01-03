@@ -4,13 +4,13 @@ pipeline{
         stage("Hello")
         {
             steps{
-                sh "hello"
+                echo "Hell0"
             }
         }
          stage("Test")
         {
             steps{
-                sh "test"
+                echo "Test"
             }
         }
     }
